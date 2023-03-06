@@ -1,16 +1,18 @@
+package java_basic;
+
 public class Main {
     public static void main(String[] args) {
         //System.out.println("Hello world!");
         System.out.println();
         /*
-        Persona persona= new Persona(2,"Juan");
+        java_basic.Persona persona= new java_basic.Persona(2,"Juan");
         System.out.println(persona.getNombre()); // ???  Juan
-        Persona persona2= new Persona();
+        java_basic.Persona persona2= new java_basic.Persona();
         System.out.println(persona2.getNombre()); // ??? ""
         persona.getNumber(5);
         System.out.println("---------------"); // ??? ""
         persona.setAltura(2);
-        Mouse m=new Mouse();
+        java_basic.Mouse m=new java_basic.Mouse();
         */
         //System.out.println(persona.getNombre());
         //System.out.println(persona.getAttributes());

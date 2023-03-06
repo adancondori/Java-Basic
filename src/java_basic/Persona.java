@@ -1,3 +1,5 @@
+package java_basic;
+
 public class Persona {
     private int altura = 0;
     private String nombre = "Hola";

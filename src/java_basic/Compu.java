@@ -1,3 +1,5 @@
+package java_basic;
+
 public class Compu {
     public String nombre="CPU";
     public Compu(){

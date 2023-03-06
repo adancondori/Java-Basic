@@ -1,3 +1,5 @@
+package java_basic;
+
 public class Main2 {
     public static void main(String[] args) {
 
@@ -6,7 +8,7 @@ public class Main2 {
         System.out.println(arbol.toString());
         System.out.println();
 
-        //Mesa asdf= new Mesa("","","");
+        //java_basic.Mesa asdf= new java_basic.Mesa("","","");
         //System.out.println(asdf.toString());
     }
 

@@ -1,3 +1,5 @@
+package java_basic;
+
 public class Mesa {
     public String nombre;
     public String color;
@@ -35,7 +37,7 @@ public class Mesa {
 
     @Override
     public String toString() {
-        return "Mesa{" +
+        return "java_basic.Mesa{" +
                 "nombre='" + nombre + '\'' +
                 ", color='" + color + '\'' +
                 ", tipo='" + tipo + '\'' +

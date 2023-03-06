@@ -1,3 +1,5 @@
+package java_basic;
+
 public class Number {
     public int numero;
 
@@ -66,6 +68,8 @@ public class Number {
         }
         return valor;
     }
+
+
 }
 // genera la siguiente serie 2,4,6,8,10
 // 4, 6, 9, 10, 14, 15, 21, 22, 25,.

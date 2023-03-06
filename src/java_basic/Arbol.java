@@ -1,3 +1,5 @@
+package java_basic;
+
 public class Arbol {
     public String nombre;
     public String color;
