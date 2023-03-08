@@ -1,7 +1,7 @@
 package poo;
 
-public class Gato extends Animal implements IMetodosAnimal{
-    public Gato(String nombre) {
+public class Pato extends Animal implements IMetodosAnimal{
+    public Pato(String nombre) {
         super(nombre);
     }
 
@@ -14,5 +14,10 @@ public class Gato extends Animal implements IMetodosAnimal{
     @Override
     public void obtenerRaza() {
         System.out.println("Raza siames");
+    }
+
+    @Override
+    public String obtenerRaza2(int nroPatas) {
+        return "DSAFASD";
     }
 }

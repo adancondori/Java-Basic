@@ -69,9 +69,25 @@ public class Number {
         return valor;
     }
 
-
+    public void sum1(int cantidad){
+        int cont=1;
+        int pri=2;
+        int sum=1;
+        while(cont<=cantidad){
+            if (pri%sum==0){
+                if (pri==sum){
+                    System.out.println(pri);
+                    cont++;
+                }
+                sum++;
+            }
+            pri++;
+        }
+    }
 }
-// genera la siguiente serie 2,4,6,8,10
+// genera la siguiente serie 1, 2, 3, 5, 7, 11, 13, 17 …
+                            //  8impar   10par  16impar  18par
+                            //  2   6   4   12  6
 // 4, 6, 9, 10, 14, 15, 21, 22, 25,.
 // 1, 1, 3, 4, 5, 7, 7, 1081 + 2 + 3
 /*

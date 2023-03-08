@@ -2,12 +2,14 @@ package poo;
 
 public class MainExtend {
     public static void main(String[] args) {
-        Animal perro = new Perro("Tarzan");
+        Perro perro = new Perro("Tarzan");
         perro.color = "negro";
+        perro.nroDientes = 32;
+        perro.edad = 45;
         System.out.println(perro.nombre);
         perro.emitirSonido();
 
-        Gato gato = new Gato("felix");
+        Pato gato = new Pato("felix");
         gato.emitirSonido();
     }
 }

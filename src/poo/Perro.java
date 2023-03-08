@@ -1,6 +1,8 @@
 package poo;
 
 public class Perro extends Animal implements IMetodosAnimal{
+
+    public int nroDientes;
     public Perro(String nombre) {
         super(nombre);
     }
@@ -14,4 +16,11 @@ public class Perro extends Animal implements IMetodosAnimal{
     public void obtenerRaza() {
         System.out.println("Raza Doberman");
     }
+
+    @Override
+    public String obtenerRaza2(int nroPatas) {
+        return "DSAFASD";
+    }
+
+
 }
