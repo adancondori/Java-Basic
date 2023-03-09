@@ -1,11 +1,13 @@
 package poo;
 
-public class Pato extends Animal implements IMetodosAnimal{
+import java_poo.IMetodo;
+
+public class Pato extends  Biodiversidad implements IMetodosAnimal, IMetodo {
     public Pato(String nombre) {
-        super(nombre);
+        //super(nombre);
     }
 
-    @Override
+    //@Override
     public void emitirSonido() {
         System.out.println("Sonido Miu miu");
     }
@@ -19,5 +21,15 @@ public class Pato extends Animal implements IMetodosAnimal{
     @Override
     public String obtenerRaza2(int nroPatas) {
         return "DSAFASD";
+    }
+
+    @Override
+    public void caminar() {
+
+    }
+
+    @Override
+    public void imprimirValor() {
+        System.out.println("imprimir valor");
     }
 }
